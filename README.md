@@ -4,15 +4,6 @@ A full-stack machine learning web application that predicts customer churn for a
 
 ---
 
-## Live Demo
-
-| | URL |
-|---|---|
-| Frontend dashboard | *Coming soon — Render deployment* |
-| Backend API docs | *Coming soon — Render deployment* |
-
----
-
 ## Project Overview
 
 Customer churn is one of the most critical business problems in the telecom industry. This project builds an end-to-end ML pipeline that:
@@ -25,6 +16,11 @@ Customer churn is one of the most critical business problems in the telecom indu
 ---
 
 ## Dashboard Preview
+### High risk prediction — Month-to-month contract, tenure 1 month
+![High risk prediction](screenshots/dashboard-high-risk.png)
+
+### Low risk prediction — Two year contract, tenure 60 months
+![Low risk prediction](screenshots/dashboard-low-risk.png)
 
 ### Key findings from the data
 - Month-to-month contracts have a **42% churn rate** vs only **3% for two-year contracts**
